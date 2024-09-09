@@ -1,0 +1,23 @@
+<!-- 11 - Desenvolva uma página onde o usuário insira o peso de um pacote e selecione uma modalidade de envio (padrão, expresso ou internacional).
+A página deve calcular o valor do frete com base na modalidade escolhida. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cálculo de Frete</h1>
+    <input type="number" id="peso" placeholder="Peso do pacote (kg)">
+    <select id="select">
+        <option disabled selected>Selecione um tipo</option>
+        <option value="padrao">Padrão</option>
+        <option value="expresso">Expresso</option>
+        <option value="internacional">Internacional</option>
+    </select>
+    <button onclick="calcular('Frete')">Calcular Frete</button>
+    <h3 id="valorFrete"></h3>
+    <script src="./js.js"></script>
+</body>
+</html>

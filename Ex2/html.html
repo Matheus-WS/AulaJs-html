@@ -1,0 +1,27 @@
+<!-- 2 - Faça uma calculadora simples(página), com as quatro operações básicas ("+", "-", "*", "/") e dois campos para números. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <img src="img/2530794_accounting_calculate_calculation_calculator_general_icon.png" alt="+">
+    <div class="cal">
+        <input type="number" id="n1" placeholder="0">
+        <input type="number" id="n2" placeholder="0">
+        <br>
+        <button onclick="calcula ('+')">Somar</button>
+        <button onclick="calcula ('-')">Subitrair</button>
+        <button onclick="calcula ('*')">Multiplicar</button>
+        <button onclick="calcula ('/')">Dividir</button>
+    </div>
+    <div>
+        <p>Resultado:</p><span id="resultado">0</span>
+    </div>
+    <script src="js.js"></script>
+
+</body>
+</html>

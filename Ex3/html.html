@@ -1,0 +1,25 @@
+<!-- 3 - Faça uma página onde informa três notas de 0 a 10, onde de 0 a <4, o aluno está reprovado,
+>=4 e < 7 em recuperação e >=7 está aprovado, exibindo a mensagem de correta. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas</title>
+</head>
+<body>
+    <h1>Calcule a Media do seu aluno.</h1>
+    <div>
+        <input type="number" id="nota1" placeholder="nota1">
+        <input type="number" id="nota2" placeholder="nota2">
+        <input type="number" id="nota3" placeholder="nota3">
+        <br>
+        <button onclick="calcula('Media')">Media</button>
+    </div>
+    <div>
+        <h3 id="resultado"></h3>
+    </div>
+    <script src="js.js"></script>
+</body>
+</html>

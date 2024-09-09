@@ -1,0 +1,26 @@
+<!-- - Faça uma página que permita ao usuário inserir um valor em Reais(BRL) e converta-o para Dólares (USD) ou Euros (EUR), com base em uma
+taxa de câmbio fixa. Use um campo de seleção (dropdown) para o usuário escolher a moeda. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moeda</title>
+</head>
+<body>
+    <form id="frm">
+        <input type="number" id="valorR" placeholder="Valor em Reais" required>
+        <select id="tipoMoeda">
+            <option disabled selected>Selecione um tipo de moeda</option>
+            <option id="dolar" value="dolar">Dólar</option>
+            <option id="euro" value="euro">Euro</option>
+        </select>
+        <button type="submit">Converter</button>
+    </form>
+    <div id="resultado"></div>
+
+
+    <!-- Inclua o arquivo JavaScript -->
+    <script src="js.js"></script>
+</body>
+</html>
